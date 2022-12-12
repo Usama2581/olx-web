@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 200px;
+    background-color: #F7F8F8;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid gainsboro;
+}
+
+li {
+    list-style: none;
+    color: #002F34;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+h4{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #000000;
+}

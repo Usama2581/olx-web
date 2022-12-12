@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 40px;
+    padding-top: 10px;
+    width: 100vw;
+    background-color: #F7F8F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blue {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.car, .building {
+    margin-right: 10px;
+    width: 25px;
+}
+.building {
+    margin-left: 50px;
+}
+
+.second {
+    width: 100vw;
+    height: 80px;
+    background-color: #F7F8F8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 30px;
+    border: 2px solid gainsboro;
+    border-top: none;
+}
+ .logo{
+     margin-left: 30px;
+ }
+
+ .input {
+    border: 2px solid #002F34;
+    font-size: 17px;
+    width: 600px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+ }
+
+ .icon{
+    background-color: #002F34;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+
+.login {
+   font-size: 18px;
+   text-decoration: underline;
+   cursor: pointer;
+   font-weight: 700;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.inputbox { 
+    border: 2px solid #002F34;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.input1 {
+   border: none;
+   outline: none;
+   background-color: #F7F8F8;
+   width: 100%;
+   position: relative;
+   left: 20px;
+   font-size: 18px;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 15px;
+}
+
+.sell {
+    width: 100px;
+    height: 50px;
+    border-width: 5px;
+    font-size: 20px;
+    border-radius: 40px;
+    border-style: solid;
+    background-color: #F7F8F8;
+    border-top-color: #23E5DB;
+    border-left-color: #FFCE32;
+    border-right-color: #3A77FF;
+    text-transform: capitalize;
+    cursor: pointer;
+}
